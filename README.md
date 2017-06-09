@@ -6,7 +6,9 @@ The idea for yolobreak all began when I was scouring the Internet for a jailbrea
 Here is the progress thus far:
 
 UI: 90%
+
 Yoloish interpreter: 0%
+
 Other scripts: 15%
 
 I will (hopefully) update this repo everyday with new minor releases and project files. The actual repository 'Releases' section is where I will be uploading 'complete' and 'offical' releases. Many releases in the 'yolobreak releases' folder are incomplete and unstable.
