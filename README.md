@@ -3,6 +3,12 @@ Yolobreak is an iOS app to automatically install a compatible jailbreak to the s
 
 The idea for yolobreak all began when I was scouring the Internet for a jailbreak that could improve my iPad's life. Sadly, I found no compatible exploits (I had an iPad Mini on iOS 9.3.5), but I did run into a ton of scams. I wanted to create an app that would install legitimate exploits, tried and true for your specific device, organized by myself. Yolobreak was born. Yolobreak's exploitation-reading programming language, yoloish, was then also created for these exploit files, .yolo's.
 
+Here is the progress thus far:
+
+UI: 90%
+Yoloish interpreter: 0%
+Other scripts: 15%
+
 I will (hopefully) update this repo everyday with new minor releases and project files. The actual repository 'Releases' section is where I will be uploading 'complete' and 'offical' releases. Many releases in the 'yolobreak releases' folder are incomplete and unstable.
 
 To contact the developer, send an e-mail over to haplesscheese@outlook.com.
