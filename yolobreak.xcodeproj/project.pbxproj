@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE33CD281EE89D76009DC16C /* DTTJailbreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = AE33CD271EE89D76009DC16C /* DTTJailbreakDetection.m */; };
+		AE66F2141EE6069300B27898 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE66F2131EE6069300B27898 /* main.m */; };
+		AE66F2171EE6069400B27898 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE66F2161EE6069400B27898 /* AppDelegate.m */; };
+		AE66F21A1EE6069400B27898 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE66F2191EE6069400B27898 /* ViewController.m */; };
+		AE66F21D1EE6069400B27898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE66F21B1EE6069400B27898 /* Main.storyboard */; };
+		AE66F21F1EE6069400B27898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE66F21E1EE6069400B27898 /* Assets.xcassets */; };
+		AE66F2221EE6069400B27898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE66F2201EE6069400B27898 /* LaunchScreen.storyboard */; };
+		AE66F22D1EE6069400B27898 /* yolobreakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE66F22C1EE6069400B27898 /* yolobreakTests.m */; };
+		AE66F2381EE6069400B27898 /* yolobreakUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE66F2371EE6069400B27898 /* yolobreakUITests.m */; };
+		AEA056D41EE8DE1B0065B1AD /* UITableViewController+ExploitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA056D31EE8DE1B0065B1AD /* UITableViewController+ExploitViewController.m */; };
+		AEC1CB431EEB31D900D5CD20 /* UIViewController+CydiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC1CB421EEB31D900D5CD20 /* UIViewController+CydiaViewController.m */; };
+		AEE6D6541EEAC4AC00F133BF /* UIViewController+JailbreakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE6D6531EEAC4AC00F133BF /* UIViewController+JailbreakViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE66F2291EE6069400B27898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE66F2071EE6069300B27898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE66F20E1EE6069300B27898;
+			remoteInfo = yolobreak;
+		};
+		AE66F2341EE6069400B27898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE66F2071EE6069300B27898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE66F20E1EE6069300B27898;
+			remoteInfo = yolobreak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE33CD271EE89D76009DC16C /* DTTJailbreakDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTJailbreakDetection.m; sourceTree = "<group>"; };
+		AE33CD291EE89D7F009DC16C /* DTTJailbreakDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTJailbreakDetection.h; sourceTree = "<group>"; };
+		AE66F20F1EE6069300B27898 /* yolobreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yolobreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE66F2131EE6069300B27898 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE66F2151EE6069400B27898 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE66F2161EE6069400B27898 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE66F2181EE6069400B27898 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE66F2191EE6069400B27898 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE66F21C1EE6069400B27898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE66F21E1EE6069400B27898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE66F2211EE6069400B27898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE66F2231EE6069400B27898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE66F2281EE6069400B27898 /* yolobreakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yolobreakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE66F22C1EE6069400B27898 /* yolobreakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yolobreakTests.m; sourceTree = "<group>"; };
+		AE66F22E1EE6069400B27898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE66F2331EE6069400B27898 /* yolobreakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yolobreakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE66F2371EE6069400B27898 /* yolobreakUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yolobreakUITests.m; sourceTree = "<group>"; };
+		AE66F2391EE6069400B27898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA056D21EE8DE1B0065B1AD /* UITableViewController+ExploitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+ExploitViewController.h"; sourceTree = "<group>"; };
+		AEA056D31EE8DE1B0065B1AD /* UITableViewController+ExploitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+ExploitViewController.m"; sourceTree = "<group>"; };
+		AEC1CB411EEB31D900D5CD20 /* UIViewController+CydiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CydiaViewController.h"; sourceTree = "<group>"; };
+		AEC1CB421EEB31D900D5CD20 /* UIViewController+CydiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CydiaViewController.m"; sourceTree = "<group>"; };
+		AEE6D6521EEAC4AC00F133BF /* UIViewController+JailbreakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JailbreakViewController.h"; sourceTree = "<group>"; };
+		AEE6D6531EEAC4AC00F133BF /* UIViewController+JailbreakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JailbreakViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE66F20C1EE6069300B27898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE66F2251EE6069400B27898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE66F2301EE6069400B27898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE66F2061EE6069200B27898 = {
+			isa = PBXGroup;
+			children = (
+				AE66F2111EE6069300B27898 /* yolobreak */,
+				AE66F22B1EE6069400B27898 /* yolobreakTests */,
+				AE66F2361EE6069400B27898 /* yolobreakUITests */,
+				AE66F2101EE6069300B27898 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE66F2101EE6069300B27898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE66F20F1EE6069300B27898 /* yolobreak.app */,
+				AE66F2281EE6069400B27898 /* yolobreakTests.xctest */,
+				AE66F2331EE6069400B27898 /* yolobreakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE66F2111EE6069300B27898 /* yolobreak */ = {
+			isa = PBXGroup;
+			children = (
+				AE66F2151EE6069400B27898 /* AppDelegate.h */,
+				AE66F2161EE6069400B27898 /* AppDelegate.m */,
+				AE66F2181EE6069400B27898 /* ViewController.h */,
+				AE33CD271EE89D76009DC16C /* DTTJailbreakDetection.m */,
+				AE33CD291EE89D7F009DC16C /* DTTJailbreakDetection.h */,
+				AE66F2191EE6069400B27898 /* ViewController.m */,
+				AEA056D21EE8DE1B0065B1AD /* UITableViewController+ExploitViewController.h */,
+				AEA056D31EE8DE1B0065B1AD /* UITableViewController+ExploitViewController.m */,
+				AEE6D6521EEAC4AC00F133BF /* UIViewController+JailbreakViewController.h */,
+				AEE6D6531EEAC4AC00F133BF /* UIViewController+JailbreakViewController.m */,
+				AE66F21B1EE6069400B27898 /* Main.storyboard */,
+				AEC1CB411EEB31D900D5CD20 /* UIViewController+CydiaViewController.h */,
+				AEC1CB421EEB31D900D5CD20 /* UIViewController+CydiaViewController.m */,
+				AE66F21E1EE6069400B27898 /* Assets.xcassets */,
+				AE66F2201EE6069400B27898 /* LaunchScreen.storyboard */,
+				AE66F2231EE6069400B27898 /* Info.plist */,
+				AE66F2121EE6069300B27898 /* Supporting Files */,
+			);
+			path = yolobreak;
+			sourceTree = "<group>";
+		};
+		AE66F2121EE6069300B27898 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE66F2131EE6069300B27898 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE66F22B1EE6069400B27898 /* yolobreakTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE66F22C1EE6069400B27898 /* yolobreakTests.m */,
+				AE66F22E1EE6069400B27898 /* Info.plist */,
+			);
+			path = yolobreakTests;
+			sourceTree = "<group>";
+		};
+		AE66F2361EE6069400B27898 /* yolobreakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE66F2371EE6069400B27898 /* yolobreakUITests.m */,
+				AE66F2391EE6069400B27898 /* Info.plist */,
+			);
+			path = yolobreakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE66F20E1EE6069300B27898 /* yolobreak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE66F23C1EE6069400B27898 /* Build configuration list for PBXNativeTarget "yolobreak" */;
+			buildPhases = (
+				AE66F20B1EE6069300B27898 /* Sources */,
+				AE66F20C1EE6069300B27898 /* Frameworks */,
+				AE66F20D1EE6069300B27898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yolobreak;
+			productName = yolobreak;
+			productReference = AE66F20F1EE6069300B27898 /* yolobreak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE66F2271EE6069400B27898 /* yolobreakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE66F23F1EE6069400B27898 /* Build configuration list for PBXNativeTarget "yolobreakTests" */;
+			buildPhases = (
+				AE66F2241EE6069400B27898 /* Sources */,
+				AE66F2251EE6069400B27898 /* Frameworks */,
+				AE66F2261EE6069400B27898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE66F22A1EE6069400B27898 /* PBXTargetDependency */,
+			);
+			name = yolobreakTests;
+			productName = yolobreakTests;
+			productReference = AE66F2281EE6069400B27898 /* yolobreakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE66F2321EE6069400B27898 /* yolobreakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE66F2421EE6069400B27898 /* Build configuration list for PBXNativeTarget "yolobreakUITests" */;
+			buildPhases = (
+				AE66F22F1EE6069400B27898 /* Sources */,
+				AE66F2301EE6069400B27898 /* Frameworks */,
+				AE66F2311EE6069400B27898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE66F2351EE6069400B27898 /* PBXTargetDependency */,
+			);
+			name = yolobreakUITests;
+			productName = yolobreakUITests;
+			productReference = AE66F2331EE6069400B27898 /* yolobreakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE66F2071EE6069300B27898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wb;
+				TargetAttributes = {
+					AE66F20E1EE6069300B27898 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TL29AFXB86;
+						ProvisioningStyle = Automatic;
+					};
+					AE66F2271EE6069400B27898 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE66F20E1EE6069300B27898;
+					};
+					AE66F2321EE6069400B27898 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE66F20E1EE6069300B27898;
+					};
+				};
+			};
+			buildConfigurationList = AE66F20A1EE6069300B27898 /* Build configuration list for PBXProject "yolobreak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE66F2061EE6069200B27898;
+			productRefGroup = AE66F2101EE6069300B27898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE66F20E1EE6069300B27898 /* yolobreak */,
+				AE66F2271EE6069400B27898 /* yolobreakTests */,
+				AE66F2321EE6069400B27898 /* yolobreakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE66F20D1EE6069300B27898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE66F2221EE6069400B27898 /* LaunchScreen.storyboard in Resources */,
+				AE66F21F1EE6069400B27898 /* Assets.xcassets in Resources */,
+				AE66F21D1EE6069400B27898 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE66F2261EE6069400B27898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE66F2311EE6069400B27898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE66F20B1EE6069300B27898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE66F21A1EE6069400B27898 /* ViewController.m in Sources */,
+				AE66F2171EE6069400B27898 /* AppDelegate.m in Sources */,
+				AEA056D41EE8DE1B0065B1AD /* UITableViewController+ExploitViewController.m in Sources */,
+				AEE6D6541EEAC4AC00F133BF /* UIViewController+JailbreakViewController.m in Sources */,
+				AEC1CB431EEB31D900D5CD20 /* UIViewController+CydiaViewController.m in Sources */,
+				AE66F2141EE6069300B27898 /* main.m in Sources */,
+				AE33CD281EE89D76009DC16C /* DTTJailbreakDetection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE66F2241EE6069400B27898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE66F22D1EE6069400B27898 /* yolobreakTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE66F22F1EE6069400B27898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE66F2381EE6069400B27898 /* yolobreakUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE66F22A1EE6069400B27898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE66F20E1EE6069300B27898 /* yolobreak */;
+			targetProxy = AE66F2291EE6069400B27898 /* PBXContainerItemProxy */;
+		};
+		AE66F2351EE6069400B27898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE66F20E1EE6069300B27898 /* yolobreak */;
+			targetProxy = AE66F2341EE6069400B27898 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE66F21B1EE6069400B27898 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE66F21C1EE6069400B27898 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE66F2201EE6069400B27898 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE66F2211EE6069400B27898 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE66F23A1EE6069400B27898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE66F23B1EE6069400B27898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE66F23D1EE6069400B27898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = TL29AFXB86;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = yolobreak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haplesscheese.yolobreak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE66F23E1EE6069400B27898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = TL29AFXB86;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = yolobreak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haplesscheese.yolobreak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE66F2401EE6069400B27898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yolobreakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wb.yolobreakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yolobreak.app/yolobreak";
+			};
+			name = Debug;
+		};
+		AE66F2411EE6069400B27898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yolobreakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wb.yolobreakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yolobreak.app/yolobreak";
+			};
+			name = Release;
+		};
+		AE66F2431EE6069400B27898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = yolobreakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wb.yolobreakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yolobreak;
+			};
+			name = Debug;
+		};
+		AE66F2441EE6069400B27898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = yolobreakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wb.yolobreakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yolobreak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE66F20A1EE6069300B27898 /* Build configuration list for PBXProject "yolobreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE66F23A1EE6069400B27898 /* Debug */,
+				AE66F23B1EE6069400B27898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE66F23C1EE6069400B27898 /* Build configuration list for PBXNativeTarget "yolobreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE66F23D1EE6069400B27898 /* Debug */,
+				AE66F23E1EE6069400B27898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE66F23F1EE6069400B27898 /* Build configuration list for PBXNativeTarget "yolobreakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE66F2401EE6069400B27898 /* Debug */,
+				AE66F2411EE6069400B27898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE66F2421EE6069400B27898 /* Build configuration list for PBXNativeTarget "yolobreakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE66F2431EE6069400B27898 /* Debug */,
+				AE66F2441EE6069400B27898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE66F2071EE6069300B27898 /* Project object */;
+}
