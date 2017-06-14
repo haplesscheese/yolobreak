@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CydiaViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIButton *cydiaButton;
+
 
 @end

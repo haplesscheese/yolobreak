@@ -16,10 +16,10 @@
 
     if ([DTTJailbreakDetection isJailbroken]) {
         
-        _cydiaButton.enabled = YES;
+     //   _cydiaButton.enabled = YES;
     }
     else {
-        _cydiaButton.enabled = NO;
+   //     _cydiaButton.enabled = NO;
     }
 }
 - (void)didReceiveMemoryWarning {
