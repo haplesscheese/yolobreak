@@ -13,6 +13,6 @@ Exlpoit installer: 10%
 
 Cydia installer: 5%
 
-I will (hopefully) update this repo everyday with new minor releases and project files. The actual repository 'Releases' section is where I will be uploading 'complete' and 'offical' releases. Many releases in the 'yolobreak releases' folder are incomplete and unstable.
+NOTE: THIS PROJECT HAS BEEN DISCONTINUED BY THE CREATOR
 
 To contact the developer, send an e-mail over to haplesscheese@outlook.com.
